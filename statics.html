@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Engineering Mechanics — Statics Tutorials | Mostly Physics</title>
+  <meta name="description" content="Free Engineering Statics tutorials covering free body diagrams, equilibrium, moments, trusses (method of joints and sections), frames, and distributed loads. Worked problems for engineering students." />
+  <meta name="keywords" content="engineering statics, free body diagram, equilibrium, moment of a force, truss method of joints, method of sections, distributed loads, statics problems, engineering mechanics" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Source+Code+Pro:wght@400;600&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <nav class="nav">
+      <a href="index.html" class="logo">
+        <span class="logo-symbol">∮</span>
+        <span class="logo-text">Mostly Physics</span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="physics1.html" class="nav-link">Physics I</a>
+        <a href="physics2.html" class="nav-link">Physics II</a>
+        <a href="statics.html" class="nav-link active">Statics</a>
+        <a href="https://www.youtube.com/channel/UCcgj89qzmieAO2hhxZ9Ziew" class="nav-cta" target="_blank">YouTube →</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="section-label">Course 03</div>
+      <h1>Engineering Mechanics I<br /><em style="color:var(--gold)">Statics</em></h1>
+      <p>Free body diagrams, equilibrium, moments, trusses, frames, and distributed loads — one of the least-covered topics on YouTube, explained clearly with full worked problems.</p>
+    </div>
+  </section>
+
+  <section class="topic-section">
+    <div class="container">
+      <div class="topic-header">
+        <h2>Free Body Diagrams &amp; Equilibrium</h2>
+        <span class="topic-tag">Statics</span>
+      </div>
+      <p class="topic-intro">In statics, every object is in equilibrium — the sum of all forces and moments is zero. That gives you three equations (ΣFx = 0, ΣFy = 0, ΣM = 0) to solve for unknown support reactions or internal forces. The free body diagram is where every problem begins: isolate the body and draw every external force acting on it.</p>
+      <div class="resource-grid">
+        <div class="resource-card">
+          <h3>Equilibrium &amp; Support Reactions</h3>
+          <p>How to find support reactions for beams and structures using the three equilibrium equations. Covers pins, rollers, and fixed supports.</p>
+          <a href="https://www.youtube.com/channel/UCcgj89qzmieAO2hhxZ9Ziew" class="video-link" target="_blank">Watch on YouTube →</a>
+        </div>
+        <div class="resource-card">
+          <h3>Moments &amp; Couples</h3>
+          <p>Moment of a force about a point, the moment of a couple, and choosing the right moment center to simplify problems.</p>
+          <a href="https://www.youtube.com/channel/UCcgj89qzmieAO2hhxZ9Ziew" class="video-link" target="_blank">Watch on YouTube →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="topic-section">
+    <div class="container">
+      <div class="topic-header">
+        <h2>Truss Analysis</h2>
+        <span class="topic-tag">Statics</span>
+      </div>
+      <p class="topic-intro">How do you find the force in every member of a truss? There are two methods. The method of joints works from one joint at a time — every joint must be in equilibrium. The method of sections lets you cut through the truss and analyze a portion of it directly, which is faster when you only need specific members. Both assume members carry only axial (tension or compression) forces.</p>
+      <div class="resource-grid">
+        <div class="resource-card">
+          <h3>Method of Joints</h3>
+          <p>Apply equilibrium at each joint to find member forces. Worked examples from start to finish, including how to identify zero-force members.</p>
+          <a href="https://www.youtube.com/channel/UCcgj89qzmieAO2hhxZ9Ziew" class="video-link" target="_blank">Watch on YouTube →</a>
+        </div>
+        <div class="resource-card">
+          <h3>Method of Sections</h3>
+          <p>Cut through the truss, isolate one side, and apply equilibrium to find up to three member forces directly. When to use this instead of joints.</p>
+          <a href="https://www.youtube.com/channel/UCcgj89qzmieAO2hhxZ9Ziew" class="video-link" target="_blank">Watch on YouTube →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="topic-section">
+    <div class="container">
+      <div class="topic-header">
+        <h2>Frames &amp; Machines</h2>
+        <span class="topic-tag">Statics</span>
+      </div>
+      <p class="topic-intro">Unlike trusses, frames and machines contain members that carry more than just axial loads — they can have bending and shear. The analysis strategy is to disassemble the structure at its internal pins, draw a free body diagram for each piece, and apply equilibrium to each piece separately. Internal pin forces appear in equal and opposite pairs on adjacent members.</p>
+      <div class="resource-grid">
+        <div class="resource-card">
+          <h3>Frames &amp; Machines</h3>
+          <p>How to analyze multi-member structures at internal pins. Full worked examples disassembling frames step by step.</p>
+          <a href="https://www.youtube.com/channel/UCcgj89qzmieAO2hhxZ9Ziew" class="video-link" target="_blank">Watch on YouTube →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="topic-section">
+    <div class="container">
+      <div class="topic-header">
+        <h2>Distributed Loads</h2>
+        <span class="topic-tag">Statics</span>
+      </div>
+      <p class="topic-intro">How do you handle a load that is spread over a length rather than applied at a single point? Replace the distributed load with a single resultant force equal to the area of the load diagram, acting at the centroid of that area. For uniform loads it's simple; for triangular or trapezoidal distributions, you need to locate the centroid carefully.</p>
+      <div class="resource-grid">
+        <div class="resource-card">
+          <h3>Distributed Loads</h3>
+          <p>Uniform, triangular, and trapezoidal distributed loads — how to replace them with resultant forces and find their location.</p>
+          <a href="https://www.youtube.com/channel/UCcgj89qzmieAO2hhxZ9Ziew" class="video-link" target="_blank">Watch on YouTube →</a>
+        </div>
+        <div class="resource-card">
+          <h3>Centroids</h3>
+          <p>Finding the centroid of areas and composite shapes — required for distributed load problems and beam analysis.</p>
+          <a href="https://www.youtube.com/channel/UCcgj89qzmieAO2hhxZ9Ziew" class="video-link" target="_blank">Watch on YouTube →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section">
+    <div class="container cta-inner">
+      <h2>More Statics content is on the way.</h2>
+      <p>Subscribe on YouTube to get notified as new videos are added.</p>
+      <a href="https://www.youtube.com/channel/UCcgj89qzmieAO2hhxZ9Ziew" class="btn-primary large" target="_blank">Subscribe on YouTube →</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-symbol">∮</span>
+        <span>Mostly Physics</span>
+      </div>
+      <div class="footer-links">
+        <a href="index.html">Home</a>
+        <a href="physics1.html">Physics I</a>
+        <a href="physics2.html">Physics II</a>
+        <a href="statics.html">Statics</a>
+        <a href="https://www.youtube.com/@mostlyphysics" target="_blank">@mostlyphysics</a>
+      </div>
+      <p class="footer-note">Free tutorials for engineering physics students.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
